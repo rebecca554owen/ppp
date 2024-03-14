@@ -9,7 +9,7 @@ COPY . /app/
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-    tzdata iptables curl \
+    tzdata iptables curl lsof net-tools \
     && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && chmod +x /app/ppp
 
