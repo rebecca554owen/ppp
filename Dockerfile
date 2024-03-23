@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu-latest # ubuntu-22.04, ubuntu-20.04, ubuntu-18.04
 ARG DEBIAN_FRONTEND=noninteractive
 
 #设置工作目录
