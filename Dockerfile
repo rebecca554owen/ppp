@@ -11,6 +11,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     unzip \
     tzdata \
     iptables \
+    dnsutils \
+    iproute2 \
     net-tools \
     iputils-ping \
     ca-certificates \
