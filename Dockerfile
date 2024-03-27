@@ -5,9 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    vim \
     curl \
-    lsof \   
     unzip \
     tzdata \
     iptables \
