@@ -1,5 +1,5 @@
 # openppp2 docker 安装指南 
-本教程基于docker compose ，可部署在非LXC系统，不想用docker的话，直接用 Supervisor 进程守护启动 ppp 。
+本教程基于docker compose 安装，可部署在非LXC系统，不想用docker的话，直接用 Supervisor 进程守护启动 ppp 。
 
 1.使用 `mkdir ppp` 新建ppp文件夹，并在文件夹内新建 `docker-compose.yml` 和 `appsettings.json`。
 ## 服务端  
